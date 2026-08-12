@@ -17,14 +17,14 @@
 /*remember to update the colours here too to reflect the above changes*/
 @media (prefers-color-scheme: dark) {
     :root{
-        --colour-1: #f0f6f0;
-        --colour-2: #222323;
+        --colour-1: #aee0c4;
+        --colour-2: #021e0e;
     }
 }
 
 
 body {
-    background-color: var(--colour-2);
+     background-color: var(--colour-2);
     color: var(--colour-1);
     font-family: 'Work Sans', sans-serif;
     line-height: 1.5;
@@ -59,6 +59,14 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+section {
+    max-width: 80rch;
+}
+
+.firstSectionHeading {
+    margin-top: 0;
 }
 
 aside {
